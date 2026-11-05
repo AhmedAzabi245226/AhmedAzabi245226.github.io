@@ -8,8 +8,9 @@
   // Cursor spotlight for the dot grid (pure CSS, driven by two custom properties).
   hero.addEventListener("pointermove", (e) => {
     const r = hero.getBoundingClientRect();
-    hero.style.setProperty("--mx", `${e.clientX - r.left}px`);
-    hero.style.setProperty("--my", `${e.clientY - r.top}px`);
+    const z = parseFloat(getComputedStyle(document.documentElement).zoom) || 1; // page zoom from style.css
+    hero.style.setProperty("--mx", `${(e.clientX - r.left) / z}px`);
+    hero.style.setProperty("--my", `${(e.clientY - r.top) / z}px`);
   });
 
   const gl = canvas.getContext("webgl", { antialias: false, premultipliedAlpha: false });

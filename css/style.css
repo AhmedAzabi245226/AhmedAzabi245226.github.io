@@ -392,3 +392,10 @@ html.theme-fade, html.theme-fade * { transition: background-color 0.45s ease, co
 /* Services header: sentence sits directly under the heading */
 .section-head--stacked { flex-direction: column; align-items: flex-start; gap: 14px; }
 .section-head--stacked .lead { margin-top: 0; max-width: 560px; }
+
+/* Zoomed-out view on laptops and desktops: the whole site at 75%, like the browser zoomed to 75% */
+@media (min-width: 1024px) {
+  html { zoom: 0.75; }
+  .hero { min-height: calc(100svh / 0.75); }
+  .lightbox img { max-height: calc(88vh / 0.75); }
+}
