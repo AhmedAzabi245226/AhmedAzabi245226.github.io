@@ -1,7 +1,7 @@
-# ahmedalezabi1.github.io
+# ahmedazabi245226.github.io
 
 Personal portfolio of **Ahmed Ali Alezabi**, AI & ML engineer.
-Live at **https://ahmedalezabi1.github.io**
+Live at **https://ahmedazabi245226.github.io**
 
 A static site (HTML, CSS and vanilla JavaScript, no build step), hosted on GitHub Pages.
 

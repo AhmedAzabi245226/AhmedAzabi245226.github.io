@@ -1,7 +1,7 @@
 // All project content lives here. index.html builds the project grid from this list,
 // and project.html?id=<id> renders the full case study.
 
-const GITHUB = "https://github.com/AhmedAlezabi1";
+const GITHUB = "https://github.com/AhmedAzabi245226";
 
 const PROJECTS = [
   {
@@ -45,7 +45,7 @@ const PROJECTS = [
     ],
     links: [
       { label: "View code on GitHub", url: `${GITHUB}/root-segmentation-cv4` },
-      { label: "Documentation", url: "https://ahmedalezabi1.github.io/root-segmentation-cv4/" },
+      { label: "Documentation", url: "https://ahmedazabi245226.github.io/root-segmentation-cv4/" },
     ],
   },
   {

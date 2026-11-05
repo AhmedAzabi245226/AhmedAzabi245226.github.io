@@ -3,7 +3,7 @@
 const PROFILE = {
   email: "nasrahmed523@gmail.com",
   linkedin: "",   // e.g. "https://www.linkedin.com/in/your-name"
-  github: "https://github.com/AhmedAlezabi1",
+  github: "https://github.com/AhmedAzabi245226",
   cv: "assets/Ahmed_Alezabi_CV.pdf",
   photo: "",      // e.g. "assets/ahmed.jpg" (portrait, about 800×1000). Empty shows an "AA" monogram.
 };
